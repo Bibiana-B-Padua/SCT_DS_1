@@ -1,7 +1,6 @@
 # SCT_DS_1
- 📊 Task 01: Population Age Distribution Visualization – India (2022)
-
-# This project is part of a data analysis and visualization assignment focused on using Python to create meaningful visual representations from structured data.
+# 📊 Task 01: Population Age Distribution Visualization – India (2022)
+ This project is part of a data analysis and visualization assignment focused on using Python to create meaningful visual representations from structured data.
 
 ## 🧾 Objective
 
