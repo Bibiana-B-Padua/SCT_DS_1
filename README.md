@@ -11,16 +11,31 @@ To create a bar chart that visually represents **India’s population distributi
 - `task01_population_chart.py` – Python script to generate the bar chart.
 - `Task01_India_Age_Distribution_Explained.pdf` – Final output PDF with the bar chart and an explanation slide.
 - `India_Population_Distribution_2022.pdf` – Simple bar chart based on official data.
+- `API_SP.POP.TOTL_DS2_en_excel_v2_127106.xls` – World Bank dataset used for population totals.
 
 ## 📊 Data Used
 
-Data Source: **UN World Population Prospects 2022**
+Data Sources:
+- **UN World Population Prospects 2022** – for age group distribution proportions.
+- **World Bank** dataset for total population: `API_SP.POP.TOTL_DS2_en_excel_v2_127106.xls`
 
 | Age Group      | Population (in millions) | Percentage |
 |----------------|--------------------------|------------|
 | 0–20 Years     | 512                      | 36.1%      |
 | 21–64 Years    | 807                      | 57.0%      |
 | 65+ Years      | 98                       | 6.9%       |
+
+## 📂 Dataset Source
+
+This project references population data from the **World Bank Open Data Portal**:
+
+- File: `API_SP.POP.TOTL_DS2_en_excel_v2_127106.xls`
+- Indicator: **SP.POP.TOTL** – Total population by country and year
+- [World Bank Dataset](https://data.worldbank.org/indicator/SP.POP.TOTL)
+
+Although the bar chart is based on aggregated age groups, the overall population figure for **India in 2022** was derived from this dataset.
+
+> Note: Full age-wise segmentation was simulated based on official proportions from **UN World Population Prospects 2022**.
 
 ## 🛠️ Technologies Used
 
